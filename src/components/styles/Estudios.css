@@ -1,0 +1,201 @@
+.experiencia {
+    display: flex;
+    margin: 30px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .estudios__titulo {
+    font-size: 25px;
+    margin-top: 70px;
+  }
+  
+  .experiencia__img {
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 0px 2px 15px #fff;
+    background-color: #fff;
+}
+  
+  .experiencia__img2 {
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 0px 2px 15px #fff;
+    background-color: #fff;
+  }
+  
+  .experiencia__img img {
+    height: 160px;
+    width: 160px;
+  }
+  .experiencia__img2 img {
+    height: 120px;
+    margin-top: 20px;
+  }
+  
+  .estudios__text {
+    width: 480px;
+    height: fit-content;
+    background-image: url(/public/bg-study2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    margin: 0 30px;
+    box-shadow: 0px 2px 15px #fff;
+    padding: 10px 10px;
+  }
+  
+  .estudios__empresa {
+    color: #000;
+ 
+    font-size: 20px;
+  }
+  
+  .estudios__cargo {
+    color: rgb(61, 61, 61);
+    color: #747171;
+    text-shadow: 3px 2px 1px #fff;
+  }
+  
+  h3, h4, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  ul{
+   
+  text-align: justify;
+  }
+
+  @media (max-width: 561px) {
+    .estudios__titulo {
+      margin-top:20px;
+      margin-bottom: 10px;
+  }
+   
+  .experiencia {
+    margin:  0px 0px 0px 0px;
+  }
+}
+  
+  @media (max-width: 810px) {
+  
+  
+    
+  .experiencia__titulo {
+    font-size: 25px;
+    margin-top: 40px;
+   
+  }
+  
+  .experiencia {
+    margin:  0px 0px 0px 30px;
+  }
+  
+  .experiencia__img {
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 0px 2px 15px #fff;
+    margin-top: 10px;
+  }
+  
+  .experiencia__img2 {
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 0px 2px 15px #fff;
+    background-color: #fff;
+    margin-top: 20px;
+  }
+  
+  .experiencia__img img {
+    height: 80px;
+    width: 80px;
+   
+  }
+  .experiencia__img2 img {
+    height: 55px;
+    margin-top: 15px;
+  }
+  
+  .estudios__text {
+    max-width: 250px;
+    height: 130px;
+    background-color: cadetblue;
+    border-radius: 20px;
+    margin: 15px 30px;
+    box-shadow: 0px 2px 15px #fff;
+    padding: 7px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+  }
+    
+    .experiencia__titulo {
+      font-size: 20px;
+      margin-top: 0px;
+      margin-bottom: 5px;  
+       
+    }
+  
+    .experiencia__text{
+      margin: 5px;
+      width: 210px;
+      height: 120px;
+      background-color: transparent;
+      box-shadow: none;
+    }
+  
+    .estudios__empresa {
+    color: #000;
+    width: 200px;
+    text-align: center;
+    margin: 5px auto;
+    color: rgb(94, 91, 91) ;
+    text-shadow: 3px 2px 1px #fff;
+    font-size: 20px;
+    line-height: 20px;
+  }
+  
+  .experiencia__cargo {
+    color: rgb(115, 103, 230);
+     margin: 5px 0;
+  }
+  
+  h3, h4, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 15px;
+   
+  }
+  
+  ul{
+    min-width: 200px;
+  text-align: justify;
+  }
+  
+    .experiencia {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+  
+  }
+  
+  @media (min-width: 541px) and (max-width: 810px) {
+      .estudios__titulo {
+        margin-left: 30px;
+        margin-top:80px;
+    }
+  }

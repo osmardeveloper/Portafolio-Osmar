@@ -1,0 +1,137 @@
+.card__portafolio {
+width: 320px;
+height: 312px;
+margin: 0;
+padding: 0;
+box-shadow: 2px 2px 12px #fff;
+border-radius: 5px;
+}
+
+.card__portafolio:hover {
+  
+    box-shadow: -3px 2px 20px #fff;
+    
+    }
+
+.portafolio__titulo {
+    margin-top: 80px;
+}
+
+.container__portafolio {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    place-content: center;
+}
+
+.color__text {
+    color: black;
+    padding: 0px 10px;
+    font-size: 15px;
+}
+
+.color__text_title {
+    color: black;
+    padding: 0px 10px;
+    font-size: 25px;
+}
+
+.boton__portafolio {
+background: none;
+box-shadow: none;
+border: 1px solid #000;
+color: #000;
+border-radius: 5px;
+padding: 5px 8px;
+background-color: rgb(170, 163, 163);
+margin-bottom: 20px;
+font-weight: bold;
+}
+
+.boton__portafolio:hover {
+    background: rgb(117, 116, 116);
+    }
+
+.img__portafolio {
+    width: 320px;
+    height: 140px;
+background-image: url(/public/pokedex.png);
+background-size: cover;
+background-repeat: no-repeat;
+padding: 0;
+margin: 0;
+border-top-right-radius: 5px;
+border-top-left-radius: 5px;
+}
+
+.img__portafolio.ii{
+    background-image: url(/public/users.png);
+}
+
+.img__portafolio.iii{
+    background-image: url(/public/ecommerce.png);
+}
+
+.contenido__portafolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 320px;
+    height: 162px;
+    background-color: rgb(206, 245, 229);
+    margin: 0;
+padding: 0;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+border-top: 2px solid rgb(48, 51, 86);
+padding-top: 10px;
+}
+
+@media (max-width: 560px) {
+    .portafolio__titulo {
+        margin-top: 30px;
+        margin-bottom: 5px;
+    }
+
+    .contenido__portafolio {
+        width: 260px;
+        height: 115px;
+        padding-top: 10px;
+    }
+
+    .img__portafolio {
+        width: 260px;
+        height: 125px;
+    }
+
+    .card__portafolio {
+        width: 260px;
+        height: 250px;
+        margin: 0 0 0 60px;
+        padding: 0;
+        box-shadow: 2px 2px 12px #fff;
+        border-radius: 5px;
+        }
+
+    .color__text {
+        font-size: 12px;
+        padding: 0px 10px;
+    }
+
+    .color__text_title {
+        color: black;
+        padding: 0px;
+        font-size: 18px;
+    }
+    .boton__portafolio {
+        font-size: 10px;
+        background-color: rgb(170, 163, 163) ;
+    }
+
+    .img__portafolio.ii{
+        width: 260px;
+        background-image: url(/public/users2.png);
+    }
+    
+}

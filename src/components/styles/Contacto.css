@@ -1,0 +1,172 @@
+.container-contacto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 30px;
+}
+
+
+
+h2 {
+    font-size: 40px;
+
+}
+
+.icon {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: 30px;
+    border-radius: 50%;
+    transition: all .8s;
+    cursor: pointer;
+}
+
+.icon:hover {
+    background-color: #e60017;
+    box-shadow:  0 0 20px #e60017 ;
+    background-color: #1da1f2;
+    box-shadow:  0 0 20px #1da1f2 ;
+}
+
+.icon:hover:nth-child(2) {
+    background-color: #1877f2;
+    box-shadow:  0 0 20px #1877f2;
+}
+
+.icon:hover:nth-child(3) {
+    background-color: #25d366;
+    box-shadow: 0 0 20px #25d366 ;
+}
+
+.icon:hover:nth-child(4) {
+    background-color: #1da1f2;
+    box-shadow:  0 0 20px #1da1f2 ;
+}
+.icon:hover:nth-child(5) {
+    background-color: chartreuse;
+    box-shadow:  0 0 20px  chartreuse;
+}
+
+.icon i {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 1.7rem;
+}
+
+svg circle {
+    stroke-dasharray: 150;
+    transition: all .8s ease-in-out;
+}
+
+.icon:hover circle {
+    stroke-dasharray: 220;
+}
+
+
+.z:hover::after {
+  content: 'Osmy19@gmail.com';
+  position: absolute;
+  display: block;
+  left: 0;
+  bottom: -60px;
+  margin: 40px 0 0 -55px;
+  transition: all ease-in-out .8s;
+  font-size: 1rem;
+  border: 1px solid chartreuse;
+  padding: 10px 20px;
+  border-radius: 20px;
+  box-shadow:  0 0 20px  chartreuse;
+  }  
+/* a::before {
+    content: "";
+    padding: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 50%;
+    height: 50%;
+    background: transparent;
+    background-size: 200%;
+    border-radius: 50%;
+    filter: blur(2px);
+    animation: glowing 40s linear infinite;
+ } */
+
+@media (max-width: 540px) {
+
+    i.i {
+        font-size: 2.2rem;
+    } 
+    h2 {
+        font-size: 30px;
+        margin-left: 30px
+    }
+    
+    .icon {
+        position: relative;
+        width: 80px;
+        height: 80px;
+        margin: 20px;
+        border-radius: 50%;
+        transition: all .8s;
+        cursor: pointer;
+    }
+
+    .icon {
+        background-color: #e60017;
+        box-shadow:  0 0 20px #e60017 ;
+        background-color: #4180a0;
+        box-shadow:  0 0 15px #899ba7 ;
+    }
+    
+    .icon:nth-child(2) {
+        background-color: #033374;
+        box-shadow:  0 0 20px #023e8c;
+    }
+    
+    .icon:nth-child(3) {
+        background-color: #25d366;
+        box-shadow: 0 0 20px #25d366 ;
+    }
+    
+    .icon:nth-child(4) {
+        background-color: #1da1f2;
+        box-shadow:  0 0 20px #1da1f2 ;
+    }
+    .icon:nth-child(5) {
+        background-color: #000000;
+        box-shadow:  0 0 15px #606d75 ;
+        background-color: #4abba2;
+        box-shadow:  0 0 15px #899ba7 ;
+    }
+
+    .container-contacto {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 280px;
+        margin: 0 10px 0 45px;
+    }
+
+    .z::after {
+        content: 'Osmy19@gmail.com';
+        position: absolute;
+        display: block;
+        left: 0;
+        bottom: -60px;
+        margin: 40px 0 0 -55px;
+        transition: all ease-in-out .8s;
+        font-size: 1rem;
+        border: 1px solid #fffefe;
+        padding: 10px 20px;
+        border-radius: 20px;
+        box-shadow:  0 0 10px  #ffffff;
+        }  
+
+}
