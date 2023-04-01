@@ -27,18 +27,18 @@
 }
 
 .imgPc{
-      width: 285px;
-      height: 350px;
+      width: 320px;
+      height: 450px;
       border-radius: 50%;
       background-image: url(/public/perfilOs.jpg);
-      background-size: 350px;
+      background-size: 450px;
       background-repeat: no-repeat;
       margin: 40px 90px 0 30px;
-      border-radius: 200px 400px 50px 100px;
+      border-radius: 200px 50px 50px 100px;
       border: 5px solid #FFF;
    }
 
-   .imgPc::before{
+   /* .imgPc::before{
     width: 300px;
     height: 440px;
     content: "";
@@ -49,7 +49,7 @@
   top: 10px;
   left: 0;
   margin-left: 75px;
- }
+ } */
 
    .titulo{
     font-size: 35px;
@@ -92,16 +92,17 @@ h3 span {
     position: absolute;
     top: 50px;
     left: 0;
-    width: 240px;
-    height: 270px;
+    width: 250px;
+    height: 350px;
     background-image: url(/public/perfilOs.jpg);
-    background-size: 270px;
+    background-size: 350px;
     background-repeat: no-repeat;
     margin: 10px;
     border-radius: 200px 400px 50px 100px;
+    border-radius: 150px 35px 40px 80px;
  }
 
- .imgPc::before{
+ /* .imgPc::before{
   width: 240px;
   height: 380px;
   content: "";
@@ -112,7 +113,7 @@ z-index: -1;
 top: -60px;
 left: 0;
 margin-left: 30px;
-}
+} */
 
 .container-descripcion {
   padding-left: 280px;
@@ -138,9 +139,11 @@ font-size: 28px;
     }
 
     h3 span {
-      font-size: 22px;
-      text-shadow:  1px 1px #fff;
+      color: #fff;
+      font-size: 18px;
+      text-shadow:  none;
       letter-spacing: 1px;
+      margin: 0;
     }
 
     .container-acerca {
@@ -168,30 +171,33 @@ font-size: 28px;
   }
 
   .imgMobile{
-    width: 175px;
-    height: 190px;
+    width: 180px;
+    height: 230px;
     background-image: url(/public/perfilOs.jpg);
-    background-size: 190px;
+    background-size: 230px;
     background-repeat: no-repeat;
-    margin: 40px 0 0 0;
+    margin: 10px 0 0 0;
     border-radius: 200px 400px 50px 100px;
+     border-radius: 100px 30px 10px 50px;
     border: 4px solid #FFF;
  }
 
- .imgMobile::before{
+ /* .imgMobile::before{
   width: 180px;
   height: 250px;
   content: "";
   border-radius: 10px 300px 80px 100px;
+
 position: absolute;
 background-color: chartreuse;
 z-index: -1;
 top: 25px;
 left: 30px;
 margin-left: 50px;
-}
+} */
 
 .name {
+  margin-top: 8px;
   font-size: 22px;
 }
 

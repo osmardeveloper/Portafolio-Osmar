@@ -12,8 +12,9 @@
   }
   
   .habilidades__titulo {
-    font-size: 25px;
+    font-size: 32px;
     margin-top: 100px;
+    color: #fff;
   }
   
   .experiencia__img {
@@ -95,7 +96,7 @@
     overflow: hidden;
     border-radius: 50%;
     box-shadow: 0px 2px 15px #fff;
-    margin-top: 10px;
+    margin-top: 30px;
   }
  
   .experiencia__img img {
@@ -110,12 +111,12 @@
     border-radius: 50%;
     box-shadow: 0px 2px 15px #fff;
     background-color: #fff;
-    margin-top: 10px;
+    margin-top: 30px;
    }
 
   .experiencia__img3 img{
-    height: 80px;
-    width: 80px;
+    height: 76px;
+    width: 76px;
     box-shadow: 0px 2px 15px #fff;
     margin-top: 0px;
     background-color: #fff;

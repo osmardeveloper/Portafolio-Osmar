@@ -6,7 +6,7 @@ const Contacto = () => {
   return (
     <div>
 
-      <h2>Contactame</h2>
+      <h2 className='contacto__titulo'>Contactame</h2>
 
       <div className='container-contacto'>
      
