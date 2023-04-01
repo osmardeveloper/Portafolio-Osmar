@@ -11,6 +11,7 @@ const NavbarR = () => {
           <Link to='/estudios'><button><i className='bx bx-award c'></i></button></Link>
           <Link to='/portafolio'><button><i className='bx bx-briefcase d'></i></button></Link>
           <Link to='/contacto'><button><i class='bx bx-mail-send f'></i></button></Link>
+      
          </div>
       </div>
   )
