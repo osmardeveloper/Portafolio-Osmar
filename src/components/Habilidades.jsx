@@ -7,6 +7,10 @@ import js from "/js.png"
 import git from "/git.png"
 import github from "/github2.png"
 import netlify from "/netlify2.png"
+import express from "/express2.png"
+import node from "/node5.png"
+import postgresql from "/postgresql.png"
+import sequelize from "/sequelize.png"
 import "./styles/Habilidades.css"
 
 
@@ -39,12 +43,12 @@ const Habilidades = () => {
         </div>
       </div>
       <div className='experiencia'>
-        <div className='experiencia__img3'>
+        <div className='experiencia__img'>
           <img src={js} alt="logo" />
         </div>
       </div>
       <div className='experiencia'>
-        <div className='experiencia__img3'>
+        <div className='experiencia__img'>
           <img src={git} alt="logo" />
         </div>
       </div>
@@ -56,6 +60,26 @@ const Habilidades = () => {
       <div className='experiencia'>
         <div className='experiencia__img'>
           <img src={netlify} alt="logo" />
+        </div>
+      </div>
+      <div className='experiencia'>
+        <div className='experiencia__img'>
+          <img src={express} alt="logo" />
+        </div>
+      </div>
+      <div className='experiencia'>
+        <div className='experiencia__img'>
+          <img src={node} alt="logo" />
+        </div>
+      </div>
+      <div className='experiencia'>
+        <div className='experiencia__img'>
+          <img src={postgresql} alt="logo" />
+        </div>
+      </div>
+      <div className='experiencia'>
+        <div className='experiencia__img'>
+          <img src={sequelize} alt="logo" />
         </div>
       </div>
     </section>

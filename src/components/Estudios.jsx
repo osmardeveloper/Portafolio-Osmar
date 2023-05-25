@@ -19,9 +19,26 @@ const Estudios = () => {
           <article className='estudios__text'>
             <div>
               <h3 className='estudios__empresa'> Academlo</h3>
-            <h4 className='estudios__cargo'>Desarollo web con ReactJs</h4>
+            <h4 className='estudios__cargo'>Desarollo Frontend con React</h4>
             
             <h4 className='experiencia__cargo'>Febrero 2023</h4>
+            </div>
+            <div>
+            <i class='bx bx-medal'></i>
+              </div> 
+           
+          </article>
+        </div>
+        <div className='experiencia'>
+          <div className='experiencia__img'>
+              <img src={academlo} alt="logo" />
+          </div>
+          <article className='estudios__text'>
+            <div>
+              <h3 className='estudios__empresa'> Academlo</h3>
+            <h4 className='estudios__cargo'>Desarollo Backend con Node</h4>
+            
+            <h4 className='experiencia__cargo'>Mayo 2023</h4>
             </div>
             <div>
             <i class='bx bx-medal'></i>

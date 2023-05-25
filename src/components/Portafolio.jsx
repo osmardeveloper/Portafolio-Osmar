@@ -24,7 +24,7 @@ const Portafolio = () => {
             </div>
             <div  className='contenido__portafolio'>
             <h3 className="color__text_title">Crud’s Users</h3>
-              <p className="color__text">Una aplicación que permite crear, consultar, modificar  y eliminar usuarios de una Api.</p>
+              <p className="color__text">Aplicacion fullstack, permite crear, consultar, modificar  y eliminar usuarios de una Api.</p>
               <a className='boton__portafolio' href='https://entregable4-react-osmar.netlify.app/' target="_blank">Ver proyecto</a>
             </div>
         </div>
