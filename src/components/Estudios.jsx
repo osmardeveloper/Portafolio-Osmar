@@ -47,7 +47,7 @@ const Estudios = () => {
           </article>
         </div>
         <div className='experiencia'>
-          <div className='experiencia__img2'>
+          <div className='experiencia__img'>
               <img src={psm} alt="logo" />
           </div>
           <article className='estudios__text'>
